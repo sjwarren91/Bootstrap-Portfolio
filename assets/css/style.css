@@ -1,12 +1,13 @@
-.container {
-    width: 960px;
-    background-color: #ffffff;
+* {
+    box-sizing: border-box;
 }
+
 
 header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 25px;
 }
 
 .navbar-brand {
@@ -14,5 +15,16 @@ header {
     padding: 20px;
     font-size: 25px;
     font-weight: bold;
-    color: #ffffff;
+}
+
+.one {
+    padding: 20px;
+    border: 1px solid #cccccc;
+    width: 960px;
+}
+
+.about-me-heading {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 20px;
 }
