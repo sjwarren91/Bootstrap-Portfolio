@@ -21,6 +21,7 @@ header {
     padding: 20px;
     border: 1px solid #cccccc;
     width: 960px;
+    margin-bottom: 25px;
 }
 
 .about-me-heading {
@@ -28,3 +29,8 @@ header {
     border-bottom: 2px solid #cccccc;
     margin-bottom: 20px;
 }
+
+p {
+    text-align: justify;
+}
+
