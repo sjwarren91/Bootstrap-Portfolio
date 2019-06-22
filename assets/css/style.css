@@ -2,10 +2,14 @@
     box-sizing: border-box;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-image: url(../images/background.png);
     background-repeat: repeat;
-    height: 100%;
 }
 
 header {
@@ -25,17 +29,15 @@ header {
 .one {
     padding: 20px;
     border: 1px solid #cccccc;
-    width: 960px;
     margin-bottom: 25px;
     background-color: #ffffff;
+    width: 960px;
 }
 
 .about-me-heading {
     padding-bottom: 20px;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 20px;
-    width: 100%;
-    display: inline-block;
 }
 
 p {
@@ -47,12 +49,30 @@ p {
     float: left;
 }
 
-@media screen and (max-width: 350px) {
+.row {
+    margin: 10px;
+}
+
+.footer {  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #666666;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
     .img1 {
         float: none;
-        margin: 0 auto;
     }
+
+    
     .one {
-        width: 100%
+        width: 450px;
     }
 }
+
