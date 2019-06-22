@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../images/background.png);
+    background-repeat: repeat;
+    height: 100%;
+}
 
 header {
     background-color: #ffffff;
@@ -22,15 +27,32 @@ header {
     border: 1px solid #cccccc;
     width: 960px;
     margin-bottom: 25px;
+    background-color: #ffffff;
 }
 
 .about-me-heading {
     padding-bottom: 20px;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 20px;
+    width: 100%;
+    display: inline-block;
 }
 
 p {
     text-align: justify;
+    line-height: 1.5;
 }
 
+.img1 {
+    float: left;
+}
+
+@media screen and (max-width: 350px) {
+    .img1 {
+        float: none;
+        margin: 0 auto;
+    }
+    .one {
+        width: 100%
+    }
+}
