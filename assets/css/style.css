@@ -10,6 +10,7 @@ html {
 body {
     background-image: url(../images/background.png);
     background-repeat: repeat;
+    margin-bottom: 25px;
 }
 
 header {
@@ -31,7 +32,7 @@ header {
     border: 1px solid #cccccc;
     margin-bottom: 25px;
     background-color: #ffffff;
-    width: 960px;
+
 }
 
 .about-me-heading {
@@ -58,7 +59,7 @@ p {
   bottom: 0;
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 50px; /* Vertically center the text there */
   background-color: #666666;
   text-align: center;
   border-top: 8px solid #4aaaa5;
@@ -69,10 +70,14 @@ p {
     .img1 {
         float: none;
     }
-
-    
-    .one {
-        width: 450px;
-    }
 }
 
+@media screen and (min-width: 980px) {
+    .one {
+        width: 960px;
+    }
+    
+    .two {
+        width: 960px;
+    }
+}
