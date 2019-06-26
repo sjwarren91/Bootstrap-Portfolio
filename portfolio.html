@@ -14,14 +14,14 @@
 
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column vh-100">
 
 
 
-    <header>
+    <header class="mb-4">
         <div class="container two" style="background-color: #ffffff;">
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff; padding: 0;">
-                <a class="navbar-brand" style="color: #ffffff;" href="#">Samuel Warren</a>
+                <a class="navbar-brand p-4 font-weight-bold" style="color: #ffffff;" href="#">Samuel Warren</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,46 +44,62 @@
         </div>
     </header>
 
-    <div class="container one">
+    <div class="container p-3 mb-4 one">
 
-        <h1 class="about-me-heading">Portfolio</h1>
+        <h1 class="pl-2 pr-2 pb-3 mb-4 about-me-heading">Portfolio</h1>
 
-        <div class="row">
+        <div class="row m-2">
             <div class="col-md-4">
-                <img src="assets/images/image1.jpg" class="port-1 img-fluid mx-auto d-block rounded"
-                    alt="Placeholder Image 1">
-                <h3 class="text-center position-relative banner">Hangman</h3>
+                <div class="position-relative mb-4">
+                    <img src="assets/images/image1.jpg" class="rounded" alt="Placeholder Image 1" style="width: 100%;">
+                    <div class="position-absolute w-100">
+                        <h4 class="text-white py-2 text-center banner">Hangman</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="position-relative mb-4">
+                    <img src="assets/images/image2.jpg" class="rounded" alt="Placeholder Image 1" style="width: 100%;">
+                    <div class="position-absolute w-100">
+                        <h4 class="text-white py-2 text-center banner">RPG Game</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+
+        <div class="row m-2">
+            <div class="col-md-4">
+                <div class="position-relative mb-4">
+                    <img src="assets/images/image3.jpg" class="rounded" alt="Placeholder Image 1" style="width: 100%;">
+                    <div class="position-absolute w-100">
+                        <h4 class="text-white py-2 text-center banner">Trivia Game</h4>
+                    </div>
+                </div>
             </div>
             <div class="col-md-4">
-                <img src="assets/images/image2.jpg" class="port-2 img-fluid mx-auto d-block rounded"
-                    alt="Placeholder Image 1">
-                <h3 class="text-center position-relative banner">RPG Game</h3>
+                <div class="position-relative mb-4">
+                    <img src="assets/images/image4.jpg" class="rounded" alt="Placeholder Image 1" style="width: 100%;">
+                    <div class="position-absolute w-100">
+                        <h4 class="text-white py-2 text-center banner">Rutgers Info Widget</h4>
+                    </div>
+                </div>
             </div>
             <div class="col-md-4">
 
             </div>
         </div>
-        <div class="row">
+        <div class="row m-2">
             <div class="col-md-4">
-                <img src="assets/images/image3.jpg" class="port-3 img-fluid mx-auto d-block rounded"
-                    alt="Placeholder Image 1">
-                <h3 class="text-center position-relative banner">Trivia Game</h3>
-
-            </div>
-            <div class="col-md-4">
-                <img src="assets/images/image4.jpg" class="port-4 img-fluid mx-auto d-block rounded"
-                    alt="Placeholder Image 1">
-                <h3 class="text-center position-relative banner">Rutgers Info Widget</h3>
-            </div>
-            <div class="col-md-4">
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="assets/images/image5.jpg" class="port-5 img-fluid mx-auto d-block rounded"
-                    alt="Placeholder Image 1">
-                <h3 class="text-center position-relative banner">Rock Paper Scissors</h3>
+                <div class="position-relative mb-4">
+                    <img src="assets/images/image5.jpg" class="rounded" alt="Placeholder Image 1" style="width: 100%;">
+                    <div class="position-absolute w-100">
+                        <h4 class="text-white py-2 text-center banner">Rock Paper Scissors</h4>
+                    </div>
+                </div>
             </div>
             <div class="col-md-4">
 
@@ -95,7 +111,7 @@
     </div>
 
 
-    <footer class="footer text-center">
+    <footer class="footer text-center p-3 mt-auto">
         <div class="container">
             <span>Copyright &#169 Samuel Warren</span>
         </div>
